@@ -9,6 +9,15 @@
   margin: 20px;
   height: 300px; /* Should be removed. Only for demonstration */
 }
+ 
+.head{
+      background:#FF5733; 
+      float: right; 
+      margin-top: 0%; 
+      width: 150px;
+      text-align: center; 
+      border: 1px solid black;
+}
 
 /* Clear floats after the columns */
 .row:after {
