@@ -9,7 +9,25 @@
   margin: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
 }
+
+@media only screen and (max-width: 768px) and (min-width:991px) {
  
+.column {
+  float: left;
+  width: 44.00%;
+  margin: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+  .column1 {
+  float: left;
+  width: 88.00%;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+  
+}
+
 .head{
       background:#FF3364; 
       float: right; 
