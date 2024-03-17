@@ -49,18 +49,6 @@
       text-align: center; 
       border: 1px solid black;
 }
-@media only screen and (max-width: 991px) and (min-width: 768px) {
-      .column {
-  float: left;
-  width: 44.00%;
-  margin: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-.column1 {
-  float: left;
-  width: 88.00%;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-    }
+
 
 
