@@ -11,13 +11,32 @@
 }
  
 .head{
-      background:#FF5733; 
+      background:#FF3364; 
       float: right; 
       margin-top: 0%; 
       width: 150px;
       text-align: center; 
       border: 1px solid black;
 }
+
+.head1{
+      background:#FF4633; 
+      float: right; 
+      margin-top: 0%; 
+      width: 150px;
+      text-align: center; 
+      border: 1px solid black;
+}
+
+.head2{
+      background:#FFE333; 
+      float: right; 
+      margin-top: 0%; 
+      width: 150px;
+      text-align: center; 
+      border: 1px solid black;
+}
+
 
 /* Clear floats after the columns */
 .row:after {
