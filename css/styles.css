@@ -16,7 +16,13 @@
   margin: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
 }
- 
+ /* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .head{
       background:#FF3364; 
       float: right; 
@@ -43,7 +49,7 @@
       text-align: center; 
       border: 1px solid black;
 }
-    @media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+@media only screen and (max-width: 991px) and (min-width: 768px) {
       .column {
   float: left;
   width: 44.00%;
@@ -57,9 +63,4 @@
 }
     }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
